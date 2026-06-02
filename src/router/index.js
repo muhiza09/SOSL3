@@ -4,6 +4,8 @@ import Home from '../views/home.vue'
 import About from '../views/about.vue'
 import Services from '../views/services.vue'
 import Contact from '../views/contact.vue'
+import Login from '../views/login.vue'
+import Register from '../views/register.vue'    
 
 import Northern from '../views/northern.vue'
 import Southern from '../views/southern.vue'
@@ -14,6 +16,7 @@ import Kigali from '../views/kigali.vue'
 import Gallery from '../views/gallery.vue'
 import GalleryImages from '../views/galleryImages.vue'
 import GalleryVideos from '../views/galleryVideos.vue'
+
 
 const routes = [
 
@@ -51,7 +54,14 @@ const routes = [
     path: '/contact',
     component: Contact
   },
-
+{
+path: '/login',
+component: Login
+},
+{
+path: '/register',
+component: Register
+},
   {
     path: '/northern',
     component: Northern
